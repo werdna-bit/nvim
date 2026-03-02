@@ -12,11 +12,7 @@ vim.keymap.set("n", "<leader>w", "<Cmd>update<CR>")
 vim.keymap.set("n", "<leader>q", "<Cmd>quit<CR>")
 vim.keymap.set("n", "<leader>so", "<Cmd>source %<CR>")
 vim.keymap.set("n", "<leader>Q", "<cmd>wqa<cr>")
-vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
 vim.keymap.set("n", "L", "$")
-
---enter explorer--
-vim.keymap.set("n", "<leader>pv", "<CMD>Oil<CR>")
 
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
